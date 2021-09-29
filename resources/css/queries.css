@@ -1,0 +1,137 @@
+/*  big tablets to 1200px(widths smaller than the 1140px row)*/
+@media only screen and (max-width: 480px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/*  small tablets to big tablets:from 768 to 1023px*/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .main-nav li {
+    margin-left: 20px;
+  }
+
+  .hero-text-box {
+    width: 100%;
+  }
+
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .section-blog img {
+    width: 200px;
+    margin-bottom: 7px;
+    border-radius: 4px;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .plan-price {
+    font-size: 300%;
+  }
+}
+
+/*  small phones-small tablets:from 481px to 480px*/
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 1% 0;
+  }
+  /* 
+  .main-nav {
+    display: none;
+  } */
+
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+  .main-nav {
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+
+  .main-nav {
+    float: left;
+  }
+  .main-nav li {
+    display: block;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    padding: 10px 0;
+    color: rgb(218, 218, 218);
+    text-decoration: none;
+    font-size: 100%;
+    margin-top: 0;
+    transition: border-bottom 0.2s;
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 15px 0;
+    color: rgb(218, 218, 218);
+    font-size: 70%;
+  }
+  .sticky .mobile-nav-icon ion-icon {
+    color: #555;
+  }
+  .sticky .mobile-nav-icon ion-icon {
+    margin-top: 10px;
+  }
+
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+
+  .sticky .nav-brand {
+    font-size: 120%;
+    margin-top: 15px;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+  h1 {
+    font-size: 150%;
+  }
+
+  .long-copy {
+    width: 90%;
+    margin-left: 0;
+  }
+}
+
+/*  small phones:from 0to 480px*/
+@media only screen and (max-width: 480px) {
+  .section-video-projects video {
+    width: 100%;
+    height: 300px;
+  }
+}
